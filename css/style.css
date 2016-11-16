@@ -726,6 +726,12 @@ there.
 }
 
 /* Larger than mobile */
+@media (max-width: 550px) {
+  .social-links-container h2 {
+    text-align: center;
+  }
+}
+
 @media (max-width: 400px) {
   .button.inverted {
     padding: 15px;
